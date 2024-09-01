@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    padding: 250px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(22, 33, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(48, 245, 196);
+    text-transform: uppercase;
+}
+
+header img{
+    width: 40px;
+    opacity: 50%;
+    margin-right: 20px;
+}
+
+body{
+    background-color: rgb(22, 33, 53);
+}
+
+h2{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    color: rgb(185, 196, 224);
+    text-align: center;
+}
+
+input,
+button{
+    background-color: rgb(185, 196, 224);
+    border: none;
+    font-size: 15px;
+    color: rgb(22, 33, 53);
+    padding: 5px;
+    margin: 5px;
+}
+
+button{
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(48, 245, 196);
+}
+
+::placeholder{
+    color: rgb(22, 33, 53);
+}
+
+form{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+table{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+th{
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(48, 245, 196);
+    border-bottom: 1px solid rgb(48, 245, 196);
+    width: 350px;
+}
+
+td{
+    color: rgb(185, 196, 224);
+}

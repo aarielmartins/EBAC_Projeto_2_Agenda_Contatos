@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./images/phone.png" alt="Telefone"/>
+        <h1>Agenda de Contatos</h1>
+    </header>
+    <div class="container">
+        <h2>Preencha o formulário para adicionar um contato:</h2>
+        <form id="fomulario-contato">
+            <input type="text" id="nome-contato" placeholder="Nome do Contato"/>
+            <input type="tel" id="tel-contato" placeholder="(00) 00000-0000"/>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th>
+                    Telefone
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./main.js"></script>
+</body>
+</html>
